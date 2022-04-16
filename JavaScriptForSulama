@@ -1,0 +1,170 @@
+let Servo_Gucu = 0
+enum RadioMessage {
+    evet_bagli = 14470,
+    baglimi = 23772,
+    message1 = 49434
+}
+input.onButtonPressed(Button.A, function () {
+    basic.showLeds(`
+        # . . . .
+        . # . . .
+        . . # . .
+        . . . # .
+        . . . . #
+        `)
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
+    basic.showLeds(`
+        # . . . .
+        . # . . .
+        . . # . .
+        . . . # .
+        . . . . #
+        `)
+    radio.sendMessage(RadioMessage.message1)
+    basic.showLeds(`
+        . . . . .
+        . . # . .
+        . # . # .
+        . . # . .
+        . . . . .
+        `)
+})
+input.onButtonPressed(Button.AB, function () {
+    basic.showLeds(`
+        . . . . .
+        # # . # #
+        # # . # #
+        # # . # #
+        . . . . .
+        `)
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
+    basic.showLeds(`
+        . . . . .
+        # # . # #
+        # # . # #
+        # # . # #
+        . . . . .
+        `)
+    radio.sendMessage(RadioMessage.baglimi)
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . # . .
+        . . . . .
+        . . . . .
+        `)
+})
+radio.onReceivedMessage(RadioMessage.evet_bagli, function () {
+    basic.showLeds(`
+        . . . . .
+        # # . # #
+        # # . # #
+        # # . # #
+        . . . . .
+        `)
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
+    basic.showLeds(`
+        . . . . .
+        # # . # #
+        # # . # #
+        # # . # #
+        . . . . .
+        `)
+    basic.showLeds(`
+        . . . . .
+        . . . . #
+        . . . # .
+        # . # . .
+        . # . . .
+        `)
+    basic.pause(2000)
+    basic.showLeds(`
+        . # # # .
+        . # . . .
+        . # # # .
+        . # . # .
+        . # # # .
+        `)
+    basic.showLeds(`
+        . # # # .
+        . # . # .
+        . # . # .
+        . # . # .
+        . # # # .
+        `)
+    basic.showLeds(`
+        . . . . .
+        . # # # .
+        . # . # .
+        . # . # .
+        . # . # .
+        `)
+    basic.showLeds(`
+        . . . # .
+        . . . # .
+        . # # # .
+        . # . # .
+        . # # # .
+        `)
+    basic.showLeds(`
+        . # # # .
+        . # . . .
+        . # # # .
+        . # . . .
+        . # # # .
+        `)
+    basic.showLeds(`
+        . . . . .
+        . # # # .
+        . # . . .
+        . # . . .
+        . # . . .
+        `)
+    basic.showLeds(`
+        . # # # .
+        . # . . .
+        . # # # .
+        . # . . .
+        . # # # .
+        `)
+    basic.showLeds(`
+        . . . . .
+        . # # # .
+        . # . # .
+        . # . # .
+        . # . # .
+        `)
+    basic.showLeds(`
+        . . . . .
+        . . # . .
+        . # . # .
+        . . # . .
+        . . . . .
+        `)
+})
+
+basic.showLeds(`
+    . . . . .
+    . . . . .
+    . . # . .
+    . . . . .
+    . . . . .
+    `)
