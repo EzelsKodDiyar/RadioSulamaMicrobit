@@ -26,5 +26,8 @@ https://i.imgur.com/ObCHT1f.png Şeması.
 
 Şimdi Eklenti Eklememiz Gerekiyor.
 
-https://i.imgur.com/hO4kU2H.png 
+https://i.imgur.com/hO4kU2H.png Buradan Eklentilere Tıklayın Gelişmişi Açıp
+.
+
+https://i.imgur.com/nrAVBy3.png Bu Eklentiyi Ekleyin.
 
