@@ -40,3 +40,17 @@ Yapıştırın.
 Sonra En Üsste Servo Gücü Diye Birşey Olacak Orda Ne Kadar Hızlı Dönmesini Seçin.
 
 [Önerilen %5-%8]
+
+Let_ServoGucu = ?. En Üsste
+
+Benim Önerdiğim %6 Yüzdesiz 0'ı Silip 6 Yazın.
+
+
+Tebrikler Sonra Kodu İndirip (2 Microbite Aynı Kod) Ve Bukadar Sonra Servoyu Sabitleyip İstediğinizi Yapın
+
+Benim Önerdiğim Bu Pompa Ama Siz İsterseniz Farklı Birşey Yapabilirsiniz.
+
+![image](https://user-images.githubusercontent.com/103838722/163679933-94d950c6-4ace-4890-8d45-a12e5aa135c1.png)
+
+Bunun Üzerine Parmak Yerine Servoyu Koyup Açma-Kapama Yapabilirsiniz Kodu DüzenleyeBilirsiniz.
+
